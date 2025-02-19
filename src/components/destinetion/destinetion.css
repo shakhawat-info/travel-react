@@ -1,0 +1,56 @@
+.destination {
+    padding: 147px 0 71px;
+    position: relative;
+    z-index: 5;
+  }
+  .destination .destination-box {
+    display: flex;
+    justify-content: space-between;
+  }
+  .destination .destination-box .txt span {
+    color: var(--black);
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  .destination .destination-box .txt h2 {
+    margin-top: 31px;
+  }
+  .destination .destination-box .txt h2 span {
+    color: var(--brand);
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: block;
+  }
+  .destination .destination-box .txt p {
+    color: var(--black);
+    width: 529px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+  }
+  .destination .destination-box .video {
+    width: 508px;
+    height: 369px;
+    position: relative;
+  }
+  .destination .destination-box .video .play {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .destination .destination-box .video .play i {
+    color: var(--brand);
+    padding: 25px 27px;
+    background-color: var(--white);
+    border-radius: 50%;
+  }

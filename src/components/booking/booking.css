@@ -1,0 +1,69 @@
+.booking{
+    position: relative;
+    z-index: 5;
+  }
+  .booking .booking-box {
+    padding: 54px 64px 50px;
+    border: 2px solid var(--brand);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .booking .booking-box .locatrate h3 {
+    color: var(--brand);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  .booking .booking-box .locatrate {
+    position: relative;
+  }
+  .booking .booking-box .locatrate::after {
+    content: "";
+    width: 4px;
+    height: 100%;
+    background-color: #ff8000;
+    position: absolute;
+    top: 0;
+    right: -20%;
+  }
+  .booking .booking-box .locatrate ul {
+    display: flex;
+    margin-top: 15px;
+    gap: 15px;
+  }
+  .booking .booking-box .locatrate ul li a {
+    color: #ff8000;
+  }
+  .booking .booking-box .locatrate ul li:last-child a {
+    opacity: 0.5;
+  }
+  .booking .booking-box .price p {
+    color: var(--black);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+  .booking .booking-box .price h3 {
+    color: var(--brand);
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .booking .booking-box .book a {
+    color: var(--white);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 15px 43px;
+    background-color: #ff8000;
+    border-radius: 15px;
+    text-transform: uppercase;
+  }

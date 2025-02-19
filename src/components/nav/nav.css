@@ -1,0 +1,31 @@
+.nav {
+    background: var(--white);
+    padding: 14px 0;
+    position: absolute;
+    top: 36px;
+    left: 0;
+    width: 100%;
+  }
+  .nav .nav-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav .nav-box ul {
+    display: flex;
+  }
+  .nav .nav-box .navigator {
+    column-gap: 47px;
+  }
+
+  .nav .nav-box .navicon {
+    column-gap: 7px;
+  }
+  .nav .nav-box .navicon li a {
+    display: flex;
+    align-items: center;
+  }
+  .nav .nav-box .navicon li a img {
+    width: 22px;
+  }
+  

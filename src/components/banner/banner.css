@@ -1,0 +1,58 @@
+.banner {
+    background: url("../images/bannerbg.png") no-repeat center;
+    background-size: cover;
+  }
+  .banner .bnr-box {
+    padding: 257px 0 199px;
+    margin-left: 242px;
+  }
+  .banner .bnr-box h1 {
+    font-weight: 700;
+    font-size: 89px;
+    color: var(--white);
+    text-transform: uppercase;
+  }
+  .banner .bnr-box h1 span {
+    display: block;
+  }
+  .banner .bnr-box .bnr-line {
+    font-size: 20px;
+    color: var(--white);
+    width: 88%;
+    line-height: 35px;
+    margin-top: 24px;
+  }
+  .banner .bnr-box form {
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+  }
+  .banner .bnr-box form input {
+    position: relative;
+  }
+  .banner .bnr-box form label {
+    display: flex;
+    background-color: var(--white);
+    max-width: 429px;
+    padding: 17px 23px;
+    border-radius: 5px;
+  }
+  .banner .bnr-box form label button {
+    padding-right: 25px;
+    background: transparent;
+    border: none;
+  }
+  .banner .bnr-box form label input {
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    font-size: 20px;
+    color: var(--brand);
+  }
+  .banner .bnr-box form label input::placeholder {
+    font-size: 20px;
+    color: var(--brand);
+    text-transform: capitalize;
+  }
+  
