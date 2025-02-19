@@ -1,0 +1,35 @@
+.counter {
+    padding: 91px 0 120px;
+    background: url("../images/counterbg.png") no-repeat center;
+    background-size: cover;
+    position: relative;
+    z-index: 5;
+  }
+  .counter .pakageshap {
+    position: absolute;
+    top: -1150px;
+    left: 20%;
+    z-index: -1;
+  }
+  .counter .count-box {
+    display: flex;
+    justify-content: space-between;
+  }
+  .counter .count-box .item h2 {
+    color: #707070;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .counter .count-box .item h2 .star {
+    font-size: 20px;
+  }
+  .counter .count-box .item p {
+    color: #707070;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }

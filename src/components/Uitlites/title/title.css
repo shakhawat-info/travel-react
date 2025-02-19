@@ -1,6 +1,5 @@
 
 .title span {
-    color: var(--black);
     font-size: 30px;
     font-weight: 400;
     text-transform: uppercase;
@@ -18,7 +17,6 @@
 
 
 .title p {
-    color: var(--black);
     width: 529px;
     margin-top: 30px;
     font-size: 20px;
@@ -36,3 +34,4 @@
 .black{
     color: var(--black);
 }
+

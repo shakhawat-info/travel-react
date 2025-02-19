@@ -1,0 +1,94 @@
+.package .package-box .item {
+    max-width: 357px;
+    height: 518px;
+    flex-shrink: 0;
+    padding: 36px;
+    border: 1px solid var(--brand);
+    border-radius: 15px;
+    position: relative;
+    transition: 0.4s;
+  }
+  .package .package-box .item h3 {
+    color: var(--brand);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    transition: 0.4s;
+  }
+  .package .package-box .item h3 p {
+    display: block;
+  }
+  .package .package-box .item .time {
+    color: var(--brand);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 6px;
+    transition: 0.4s;
+  }
+  .package .package-box .item ul {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+  }
+  .package .package-box .item ul li svg {
+    margin-right: 13px;
+  }
+  .package .package-box .item .getstart {
+    color: var(--white);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 14px 28px;
+    background-color: var(--brand);
+    border-radius: 15px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    transition: 0.4s;
+  }
+  .package .package-box .item::after {
+    content: "4 Days Trial Available";
+    position: absolute;
+    bottom: -15%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    color: var(--black);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .package .package-box .item ul li svg path {
+    transition: 0.4s;
+  }
+  .package .package-box .item:hover {
+    border: 1px solid #ff8000;
+  }
+  .package .package-box .item:hover h3 {
+    color: #ff8000;
+  }
+  .package .package-box .item:hover .time {
+    color: #ff8000;
+  }
+  .package .package-box .item:hover .getstart {
+    background-color: #ff8000;
+  }
+  .package .package-box .item:hover ul li svg path {
+    fill: #ff8000;
+  }
+
+  .iconopacity{
+    opacity: .5;
+  }

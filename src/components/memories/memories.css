@@ -1,0 +1,28 @@
+.memori {
+    background-color: var(--brand);
+    padding: 69px 0;
+    position: relative;
+  }
+  .memori .memori-box {
+    display: flex;
+    position: relative;
+    z-index: 1;
+  }
+  .memori .memori-box .shap {
+    position: absolute;
+    top: -5%;
+    left: 5%;
+    z-index: -1;
+  }
+  .memori .memori-box .image {
+    width: 50%;
+  }
+  .memori .memori-box .image img {
+    border-radius: 15px;
+    width: 508px;
+    height: 523px;
+  }
+  .memori .memori-box .txt {
+    width: 50%;
+    margin-top: 76px;
+  }

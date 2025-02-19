@@ -1,0 +1,37 @@
+.package {
+    padding: 90px 0 180px;
+    position: relative;
+    z-index: 2;
+  }
+  .package .shap {
+    position: absolute;
+    top: -70%;
+    left: 18%;
+    z-index: -1;
+  }
+  
+  .package .title {
+    text-align: center;
+  }
+  .package .title h2 {
+    color: var(--brand);
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .package .title p {
+    color: var(--black);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 23px auto 0;
+    line-height: 27px;
+    max-width: 830px;
+  }
+  .package .package-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 91px;
+  }
+  

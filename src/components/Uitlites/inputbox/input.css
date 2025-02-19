@@ -1,0 +1,40 @@
+form {
+    display: flex;
+    align-items: center;
+    column-gap: 17px;
+  }
+form label {
+    background-color: var(--white);
+    border: 1px solid var(--brand);
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    max-width: 365px;
+    border-radius: 15px;
+  }
+ form label input {
+    border: none;
+    padding: 10px 0;
+    font-size: 20px;
+    color: var(--brand);
+  }
+form label input::placeholder {
+    color: var(--brand);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+form button {
+    color: var(--white);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    background: #ff8000;
+    border-radius: 15px;
+    padding: 20px 40px;
+  }

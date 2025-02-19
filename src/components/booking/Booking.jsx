@@ -14,7 +14,7 @@ const Booking = () => {
         <div className="locatrate">
           <h3>travel location</h3>
           <ul>
-            {star.map((item)=> <li><Button type={'link'} icon={true} content={item} /></li>)}
+            {star.map((item , index)=> <li key={index*1.3}><Button type={'link'} icon={true} content={item} /></li>)}
           </ul>
         </div>
         <div className="price">

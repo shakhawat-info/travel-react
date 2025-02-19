@@ -1,0 +1,60 @@
+.footer .foot-box {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer .foot-box .item h2 {
+    color: var(--brand);
+    font-size: 24.917px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-bottom: 32px;
+    position: relative;
+  }
+  .footer .foot-box .item h2::after {
+    content: "";
+    width: 70%;
+    height: 2px;
+    background-color: var(--brand);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .footer .foot-box .item ul {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .footer .foot-box .item ul li a {
+    color: var(--black);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+  .footer .copyright {
+    margin-top: 100px;
+    background-color: #ff8000;
+    padding: 42px 0;
+  }
+  .footer .copyright .txt {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer .copyright .txt p {
+    color: var(--white);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .footer .copyright .txt ul {
+    display: flex;
+    gap: 10px;
+  }
+  .footer .copyright .txt ul li a svg {
+    fill: var(--white);
+  }
